@@ -1,0 +1,14 @@
+name: KZDevRegister
+version: 1.0.0
+main: pl.kzdev.register.KZDevRegister
+api-version: 1.20
+author: KZDev.pl (Jakub Zegarski)
+description: Lekki plugin logowania i rejestracji z obsługą własnej muzyki logowania.
+
+commands:
+  register:
+    description: Zarejestruj konto
+    usage: /register <hasło> <hasło>
+  login:
+    description: Zaloguj się
+    usage: /login <hasło>

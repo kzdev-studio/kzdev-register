@@ -1,0 +1,41 @@
+messages:
+  only-players: "§cTa komenda jest tylko dla graczy!"
+  already-registered: "§cJuż masz konto! Użyj §e/login <hasło>"
+  not-registered: "§cNie masz konta! Użyj §e/register <hasło> <hasło>"
+  already-logged-in: "§aJesteś już zalogowany!"
+  passwords-dont-match: "§cHasła nie są identyczne!"
+  password-too-short: "§cHasło musi mieć min. 4 znaki!"
+  registered: "§aPomyślnie zarejestrowałeś się! Możesz grać."
+  logged-in: "§aPomyślnie zalogowałeś się! Miłej gry."
+  wrong-password: "§cBłędne hasło!"
+  login-required: "§cMusisz się zalogować! Użyj §e/login <hasło>"
+  register-required: "§cMusisz się zarejestrować! Użyj §e/register <hasło> <hasło>"
+  chat-blocked: "§cMusisz się zalogować, aby pisać na czacie!"
+  kick-timeout: "§cNie zalogowałeś się w wyznaczonym czasie!"
+
+  title-register: "§c§lZAREJESTRUJ SIĘ"
+  subtitle-register: "§eWpisz §c/register <hasło> <hasło>"
+  title-login: "§c§lZALOGUJ SIĘ"
+  subtitle-login: "§eWpisz §c/login <hasło>"
+  title-success-register: "§a§lZAREJESTROWANO!"
+  title-success-login: "§a§lZALOGOWANO!"
+  subtitle-success: "§aMiłej gry na serwerze!"
+  bossbar: "§c§lZAREJESTRUJ SIĘ LUB ZALOGUJ!"
+
+# Konfiguracja muzyki podczas logowania (Resource Pack lub wbudowany dźwięk Minecrafta)
+music:
+  enabled: true
+  # Wpisz nazwę dźwięku z Resource Packa (np. "custom.login_theme") lub nazwę z Minecrafta (np. "MUSIC_DISC_CAT")
+  sound: "MUSIC_DISC_CAT"
+  display-name: "Muzyka powitalna"
+  bossbar: "§d♪ §fAktualnie gra: §b{track} §d♪"
+  volume: 0.4
+  pitch: 1.0
+  # Opóźnienie startu muzyki po wejściu (20 ticków = 1 sekunda)
+  delay-ticks: 40
+  # Co ile ticków zapętlać utwór podczas oczekiwania na logowanie
+  loop-ticks: 365
+
+auth:
+  kick-seconds: 60
+  particles-enabled: true
